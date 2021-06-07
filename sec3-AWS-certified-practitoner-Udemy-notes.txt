@@ -1,0 +1,48 @@
+SECTION 3 PART 7
+
+how websites work
+-CLIENT 
+-NETWORK
+-SERVER
+	Servers are the like network of your mail
+
+What is a server composed of?
+
+-Compute CPU
+-Memory RAM
+	- ram + cpu = brain
+-Storage data
+Database Store data in a structured way
+Network: Routers, Switchm, DNS server
+
+IT terminology
+	- Networks: cables routers, and servers connected with eachother
+	- Router: A networking device that forwards data packets between computer networks. They know where to send your packets on the internet.
+	- Switch: Takes a packet and send it to the correct server/ client on your network.  
+Problems with traditional It approach 
+- Pay for the rent for the data center
+- Pay for power supply, cooling, maintainenance 
+- Adding and replacing hardware takes time 
+- Scaling is limited
+- Hire 24/7 team to monitor the infrastructure
+- How to deal with disasters (earthquake, power shutdown, fire...)
+
+Can we externalize this?
+
+SECTION 3 PART 8
+
+What is cloud computing?
+- Cloud computing is the on- demand delivery of compute power database storage, applications, and other IT storage. 
+-Through a cloud services platform with pay as you go pricing 
+- You can provision as many resources as you need, almost instantly 
+- You can access as many resources as you need, almost instantly.
+- Simple way to access servers, storage, databases and a set of application services. 
+
+-Amazon web services owns and maintains the network -connected hardware required for these application services, while you provision and use what you need via the a web applicartion.
+
+
+
+
+
+
+ 
