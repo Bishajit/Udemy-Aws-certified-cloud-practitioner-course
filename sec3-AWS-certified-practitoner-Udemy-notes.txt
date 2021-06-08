@@ -40,6 +40,56 @@ What is cloud computing?
 
 -Amazon web services owns and maintains the network -connected hardware required for these application services, while you provision and use what you need via the a web applicartion.
 
+The five characteristic of Cloud Computing
+-On demand self service 
+	-Users provision resources and use them without human interaction from the service provider
+- Broad network access
+	-resources avalible over the network and can be accessed by diverse client platforms 
+- Multi tendancy and resource pooling:
+	- Multiple customers can share the same infrastructure and application with security and privacy
+	- Multiple customers are service from the same physical resoruces
+-Rapid elasticity and scalabilty
+	- Automatically and quickly acquire and dispose resources when needed 
+	-Quickly and easily based on demand
+-Measured service 
+	-usage is measured, users pay correctly for what they have used.
+
+Six Advantages of CLoud computing
+!)Trade capital expensen (Capex) for operational expense (OPEX)
+	- Pay on demand don't own hardware 
+	- Reduced TOtal Cost of Ownership (TCO) and Operational Expense(OPEX)
+2)Benefit from massive economies of scale
+	Prices are reduced as AWS is more effecient due to large scale
+3) Stop guessing capacity
+	-Scale based on actual measured usage
+4)Increased speed and agiltity 
+5)Stop spending money and maintaining data centers 
+6)Go global in minutes: Leverage the AWS global infrastructurev 
+
+SEC 3 part 9
+Types of cloud computing 
+-Infrastructure as a Service (IaaS)
+	-Amazon EC2
+	-GCP,Rackspace, Digital Ocean, Linode
+-Platform as a Service (PaaS)
+	-Elastic Beanstalk (On AWS)
+	-Heroku, Google App Engine (GCP) Windows Azure(Microsoft)
+- Software as a Service (SaaS)
+	-Many AwS services
+	-Google apps, Dropbox, Zoom
+
+Pricing of the cloud- Quick Overview
+	-Compute
+	-Storage
+	-Data transfer Out of the Cloud
+	-Solves the expensive issue of traditional IT
+
+
+
+
+
+
+ 
 
 
 
