@@ -84,8 +84,49 @@ Pricing of the cloud- Quick Overview
 	-Data transfer Out of the Cloud
 	-Solves the expensive issue of traditional IT
 
+Sec 3 part 10
+AWS CLOud Use Cases
+-Aws enables you to build, scalable applications
+-Applicable to a diverse set of industries
+-Use cases include
+	-many tasks
 
+Aws Global Infrastructure 
+-AWS regions
+-AWS Availibabality Zones
+-AWS Data centers
+-AWS EDGE locations/Points of presence
 
+How to Chose an AWS region
+	-Compliance
+	- Proximity
+	-Avalible services 
+	-Pricing
+
+Aws avalibility Zones
+	-Each region has avg 3, min 2, max 6
+	-Each avalibilty zone is one or more data centers with redundant power, networking, and connectivity
+	-SSeperate from each other
+	-connected with high bandwidth, ultra low latency networking
+
+AWS points of presence 
+	-216 points of presence
+
+Tour of the AWS console 
+
+Aws Has global services:
+	-Identity and access managment (IAM)
+	-Roughte 53 (DNS service)
+	- Cloudfront (Content Delivery Network)
+
+Sec 3 part 11 
+	-Most services in AWS like EC@ is regional except for some like IAM
+Sec 3 part 12 
+	-UI changes
+Sec 3 part 13
+	- Customer = responsible for the security in the cloud
+	-Aws - Responsible for the security of the cloud
+ 
 
 
 
