@@ -1,0 +1,17 @@
+Sec 4 part 14 Introduction:USers,groups,policies
+
+IAM; USERS & GROUPS
+-IAM = Identity and access management, global service 
+-Root account created by default shouldn't be used or shared
+-Users are people within your organization and can be grouped 
+-groups only contain users, not other groups
+-Users don't have to belong to multiple groups and users can belong to multiple groups
+
+ 
+IAM; PERMISSIONS 
+-USERS OR gROUPS CAN BE ASSIGNED JSON DOCUMENTS called policies 
+-These policies define the permissions of the users
+-In AWS you apply the least privvilege principle: don't give more permissions than a user needs
+
+Sec 4 part 15  IAM USERS and Groups hands on
+ 
