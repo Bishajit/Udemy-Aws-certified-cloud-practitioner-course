@@ -14,4 +14,30 @@ IAM; PERMISSIONS
 -In AWS you apply the least privvilege principle: don't give more permissions than a user needs
 
 Sec 4 part 15  IAM USERS and Groups hands on
- 
+
+Sec 5 part 16 IAM Policies
+-policies for specified groupos
+-inline policies designed for a specific user
+-user can belong to multiple groups
+
+IAM policiesd structure
+
+-consist of 
+	- Version: policy language version, always include "2012-10-17"
+	- Id: an identifier for the policy (optional)
+	- Statement:One or more individual statements(required)
+-Statements consist of 
+	-Sid: an identifier for the statement(optional)
+	-Effect: whether the statement allows or denies access
+		(Allow,Deny)
+	-PrincipalL:Account/user/role to which this policy applied to
+	-Action: list of actions this policy allows or denies
+	-Resource list of resources to which the actions applied to
+
+Sec 4 part 17: IAM Policies Hands on 
+
+
+
+
+
+
