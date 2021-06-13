@@ -36,8 +36,60 @@ IAM policiesd structure
 
 Sec 4 part 17: IAM Policies Hands on 
 
+Sec 4 part 18: IAM MFA overview
+  
+IAM-password policy 
+-Strong passwords= higher security for your account 
+-In AWS you can set up a password policy 
+	-Set a minimum password lenth
+	-Require specific character types 
+		-Including uppercase letters
+		-lowercase letters 
+		-numbers
+		- non-alphanumeric characters 
+	-Allow all IAM users to change their own password
+	-Require users to change their password after some time(password expiration
+Multifactor authentication- MFA 
+	-Users have access to your account and can possibly change configuration or delete resources in your aws account
+	-You want to protect you Root accountsd and IAM users
+	-MFA= Passwords you know= security device you own
+   	- Main benefit of MFA-if password is stolen or hacked the account is not comprimised 
+-MFA devices options in AWS
+	-Virtual MFA device
+		-Google Authenticator(phone only)
+		-Authy(multi-device)
+			-For Authy:support for multiple token on asingle device 
+	-Universal 2nd factor (U2F) security key 
+		- Yubikey by Yubico(3rd party)
+			-support for multiple root and IAM usersusing a single security key
+	-Hardware Key Fob MFA device 
+		-Provided by Gemalto (3rd party)
+	-Harware key Fob MFA deccive for AWS GovCloud(US)
+		-provide by SurePassID (3rd party)
 
 
+Sec 4 part 19 IAM MFA Hands on
 
+Sec 4 part 20 AWS Access keys, CLI and SDK  	
+To access AWS you have three options 
+	-Aws MANAGEMENT console(protected by password +MFA)
+	-AWS command line interfasce CLI: protected by access keys 
+	-AWS software developer kit (SDK)for code protected by acess keys.
+	-Users manage their own 
+	-Access keys are secret just like a password.Dont share them
+	-Access key id =username
+	-Secret accces key password
+	-rEMEMBER DONT SHARE ACCESS KEY
+-What’s the AWS CLI?
+	-A tool that enables you to interact with AWS services using commands in your command-line shellA tool that enables you to interact with AWS services using commands in your command-line shell.
+	-Direct access to the public APIs of AWS services
+	-You can develop scripts to manage your resources
+	-It’s open-source https://github.com/aws/aws-cli
+	-Alternative to using AWS Management Console
+
+What’s the AWS SDK?
+	-AWS Software Development Kit (AWS SDK)
+	-Language-specific APIs (set of libraries) 
+	-Enables you to access and manage AWS services programmatically
 
 
