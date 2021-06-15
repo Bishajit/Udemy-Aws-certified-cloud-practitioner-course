@@ -28,3 +28,12 @@ EC2 User Data
 	• Downloading common files from the internet
 	• Anything you can think of
 The EC2 User Data Script runs with the root user
+
+Section 5 part 36 EC@ instance with EC2 User data to have a wevbsite hands
+Hands-On:
+
+Launching an EC2 Instance running Linux
+• We’ll be launching our first virtual server using the AWS Console
+• We’ll get a first high-level approach to the various parameters
+• We’ll see that our web server is launched using EC2 user data
+• We’ll learn how to start / stop / terminate our instance.
