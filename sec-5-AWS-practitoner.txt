@@ -37,3 +37,62 @@ Launching an EC2 Instance running Linux
 • We’ll get a first high-level approach to the various parameters
 • We’ll see that our web server is launched using EC2 user data
 • We’ll learn how to start / stop / terminate our instance.
+
+Sec 5 part 35 Ec2 baic types 
+EC2 Instance Types - Overview
+• AWS has the following naming convention:
+• m: instance class
+• 5: generation (AWS improves them over time)
+• 2xlarge: size within the instance class
+
+EC2 Instance Types – General Purpose
+-Great for a diversity of workloads such as web servers or code repositories
+
+EC2 Instance Types – Compute Optimized
+• Great for compute-intensive tasks that require high performance  processors:
+• Batch processing workloads
+• Media transcoding
+• High performance web servers
+• High performance computing (HPC)
+• Scientific modeling & machine learning
+• Dedicated gaming servers
+
+EC2 Instance Types – Storage Optimized
+• Great for storage-intensive tasks that require high, sequential read and write
+access to large data sets on local storage
+		• Use cases:
+• High frequency online transaction processing (OLTP) systems
+• Relational & NoSQL databases
+• Cache for in-memory databases (for example, Redis)
+• Data warehousing applications
+• Distributed file systems
+
+ec2instance.info
+
+Section 5 part 39 security groups and Classsic ports
+
+Introduction to Security Groups
+• Security Groups are the fundamental of network security in AWS
+• They control how traffic is allowed into or out of our EC2 Instances.
+• Security groups only contain allow rules
+• Security groups rules can reference by IP or by security group
+
+Security Groups Deeper Dive
+• Security groups are acting as a “firewall” on EC2 instances
+• They regulate:
+	• Access to Ports
+	• Authorised IP ranges – IPv4 and IPv6
+	• Control of inbound network (from other to the instance)
+	• Control of outbound network (from the instance to other)
+
+Classic Ports to know
+
+• 22 = SSH (Secure Shell) - log into a Linux instance
+• 21 = FTP (File Transfer Protocol) – upload files into a file share
+• 22 = SFTP (Secure File Transfer Protocol) – upload files using SSH
+• 80 = HTTP – access unsecured websites
+• 443 = HTTPS – access secured websites
+• 3389 = RDP (Remote Desktop Protocol) – log into a Windows instance
+	
+ 
+
