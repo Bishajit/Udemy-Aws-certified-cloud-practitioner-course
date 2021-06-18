@@ -105,6 +105,8 @@ Classic Ports to know
 • 80 = HTTP – access unsecured websites
 • 443 = HTTPS – access secured websites
 • 3389 = RDP (Remote Desktop Protocol) – log into a Windows instance
+
+• Windows: • Putty Lecture • If Windows 10: SSH on Windows 10 lecture
 	
  
 
