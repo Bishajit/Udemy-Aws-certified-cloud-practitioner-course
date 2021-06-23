@@ -38,7 +38,7 @@ EBS Snapshots
 • Not necessary to detach volume to do snapshot, but recommended
 • Can copy snapshots across AZ or Region
 
- Part 55 Ami overview  
+ Part 56 Ami overview  
 
 AMI Overview
 • AMI = Amazon Machine Image
@@ -57,5 +57,88 @@ AMI Process (from an EC2 instance)
 • Build an AMI – this will also create EBS snapshots
 • Launch instances from other AMIs
 
-EC2 image builder hands on
+Part 58
+
+EC2 Image Builder
+• Used to automate the creation of Virtual Machines or container images
+• => Automate the creation, maintain, validate and test EC2 AMIs
+• Can be run on a schedule (weekly, whenever packages are updated, etc…)
+• Free service (only pay for the underlying resources)
+
+EC2 Instance Store
+• EBS volumes are network drives with good but “limited” performance
+• If you need a high-performance hardware disk, use EC2 Instance Store
+• Better I/O performance
+• EC2 Instance Store lose their storage if they’re stopped (ephemeral)
+• Good for buffer / cache / scratch data / temporary content
+• Risk of data loss if hardware fails
+• Backups and Replication are your responsibility
+
+Part 61 EFS overview
+
+EFS – Elastic File System
+• Managed NFS (network file system) that can be mounted on 100s of EC2
+• EFS works with Linux EC2 instances in multi-AZ
+• Highly available, scalable, expensive (3x gp2), pay per use, no capacity planning
+
+EFS Infrequent Access (EFS-IA)
+• Storage class that is cost-optimized for files not
+accessed every day
+• Up to 92% lower cost compared to EFS Standard
+• EFS will automatically move your files to EFS-IA
+based on the last time they were accessed
+• Enable EFS-IA with a Lifecycle Policy
+• Example: move files that are not accessed for 60
+days to EFS-IA
+• Transparent to the applications accessing EFS
+
+part 62 Shared Responsibility Model for EC2 Storage
+
+AWS
+Infrastructure
+• Replication for data for EBS
+volumes & EFS drives
+• Replacing faulty hardware
+• Ensuring their employees
+cannot access your data
+
+User
+Setting up backup / snapshot
+procedures
+• Setting up data encryption
+• Responsibility of any data on
+the drives
+• Understanding the risk of
+using EC2 Instance Store
+
+part 63 Amazon FSx Overview 
+Amazon FSx for Lustre
+• A fully managed, high-performance, scalable file storage for High Performance Computing (HPC)
+• The name Lustre is derived from “Linux” and “cluster”
+• Machine Learning, Analytics, Video Processing, Financial Modeling, …
+• Scales up to 100s GB/s, millions of IOPS, sub-ms latencies
+
+Amazon FSx for Lustre
+• A fully managed, high-performance, scalable file storage for High Performance Computing (HPC)
+• The name Lustre is derived from “Linux” and “cluster”
+• Machine Learning, Analytics, Video Processing, Financial Modeling, …
+• Scales up to 100s GB/s, millions of IOPS, sub-ms latencies
+
+Part 65 Summary 
+
+
+EC2 Instance Storage- Summary
+	• EBS volumes: • network drives attached to one EC2 instance at a time 
+	• Mapped to an Availability Zones 
+	• Can use EBS Snapshots for backups / transferring EBS volumes across AZ
+AMI: create ready-to-use EC2 instances with our customizations
+EC2 Image Builder: automatically build, test and distribute AMIs
+EC2 Instance Store: 
+	• High performance hardware disk attached to our EC2 instance 
+	• Lost if our instance is stopped / terminated
+EFS: network file system, can be attached to 100s of instances in a region
+EFS-IA: cost-optimized storage class for infrequent accessed files 
+FSx for Windows: Network File System for Windows servers
+FSx for Lustre: High Performance Computing Linux file system
+
   
