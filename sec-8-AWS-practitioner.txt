@@ -1,0 +1,115 @@
+Section 8 Amazon S3 
+
+sect 75
+
+Section introduction
+
+• Amazon S3 is one of the main building blocks of AWS
+• It’s advertised as ”infinitely scaling” storage
+
+• Many websites use Amazon S3 as a backbone
+• Many AWS services use Amazon S3 as an integration as well
+
+• We’ll have a step-by-step approach to S3
+• The CCP exam requires “deeper” knowledge about S3
+
+S3 Use cases
+
+• Backup and storage 
+• Disaster Recovery 
+• Archive 
+• Hybrid Cloud storage 
+• Application hosting 
+• Media hosting 
+• Data lakes & big data analytics 
+• Software delivery 
+• Static website
+
+Amazon S3 Overview - Buckets
+• Amazon S3 allows people to store objects (files) in “buckets” (directories)
+• Buckets must have a globally unique name (across all regions all accounts)
+• Buckets are defined at the region level
+• S3 looks like a global service but buckets are created in a region
+	• Naming convention
+	• No uppercase
+	• No underscore
+	• 3-63 characters long
+	• Not an IP
+	• Must start with lowercase letter or number
+
+Amazon S3 Overview- objects
+- Objects (files) have a Key
+The key is the FULL path: 
+	• s3://my-bucket/my_file.txt 
+	• s3://my-bucket/my_folder1/another_folder/my_file.txt
+•The key is composed of prefix + object name • s3://my-bucket/my_folder1/another_folder/my_file.txt
+•There’s no concept of “directories” within buckets (although the UI will trick you to think otherwise)
+• Just keys with very long names that contain slashes (“/”)
+
+Amazon S3 Overview – Objects continued
+
+• Object values are the content of the body:
+	• Max Object Size is 5TB (5000GB)
+	• If uploading more than 5GB, must use “multi-part upload
+• Metadata (list of text key / value pairs – system or user metadata)
+• Tags (Unicode key / value pair – up to 10) – useful for security / lifecycle
+• Version ID (if versioning is enabled)
+
+sect 77 S3 seecurity: Bucket Policies
+
+S3 Security
+
+• User based
+	• IAM policies - which API calls should be allowed for a specific user from IAM console
+• Resource Based
+	• Bucket Policies - bucket wide rules from the S3 console - allows cross account
+	• Object Access Control List (ACL) – finer grain
+	• Bucket Access Control List (ACL) – less common
+• Note: an IAM principal can access an S3 object if
+	• the user IAM permissions allow it OR the resource policy ALLOWS it
+	• AND there’s no explicit DENY
+• Encryption: encrypt objects in Amazon S3 using encryption keys
+
+
+• JSON based policies 
+	• Resources: buckets and objects 
+	• Actions: Set of API to Allow or Deny • Effect: Allow / Deny 
+	• Principal: The account or user to apply the policy to
+
+• Use S3 bucket for policy to: 
+	• Grant public access to the bucket 
+	• Force objects to be encrypted at upload 
+	• Grant access to another account (Cross Account)
+
+Bucket settings for Block Public Access
+	• These settings were created to prevent company data leaks
+	• If you know your bucket should never be public, leave these on
+	• Can be set at the account level
+
+part 79 
+
+S3 Websites
+• S3 can host static websites and have them accessible on the www
+• The website URL will be:
+	• <bucket-name>.s3-website-<AWS-region>.amazonaws.com
+	OR
+	• <bucket-name>.s3-website.<AWS-region>.amazonaws.com
+
+	• If you get a 403 (Forbidden) error, make sure the bucket policy allows
+public reads!
+
+part 81
+Amazon S3 -Versioning
+• You can version your files in Amazon S3
+• It is enabled at the bucket level
+• Same key overwrite will increment the “version”: 1, 2, 3….
+• It is best practice to version your buckets 	
+	• Protect against unintended deletes (ability to restore a version)
+	• Easy roll back to previous version
+• Notes:
+	• Any file that is not versioned prior to enabling versioning will have version “null”
+	• Suspending versioning does not delete the previous versions
+Part 83
+
+
+
