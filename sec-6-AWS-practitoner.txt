@@ -141,4 +141,16 @@ EFS-IA: cost-optimized storage class for infrequent accessed files
 FSx for Windows: Network File System for Windows servers
 FSx for Lustre: High Performance Computing Linux file system
 
+Why use an Elastic Load Balancer?
+• An ELB (Elastic Load Balancer) is a managed load balancer
+	• AWS guarantees that it will be working
+	• AWS takes care of upgrades, maintenance, high availability
+	• AWS provides only a few configuration knobs
+• It costs less to setup your own load balancer but it will be a lot more
+effort on your end (maintenance, integrations)
+• 3 kinds of load balancers offered by AWS:
+	• Application Load Balancer (HTTP / HTTPS only) – Layer 7
+	• Network Load Balancer (ultra-high performance, allows for TCP) – Layer 4
+	• Classic Load Balancer (slowly retiring) – Layer 4 & 7
+
   
