@@ -1,0 +1,4 @@
+Section 20 other services
+
+Amazon WorkSpaces
+Amazon AppStream 2.0
