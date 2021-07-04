@@ -1,4 +1,11 @@
 Section 20 other services
 
-Amazon WorkSpaces
-Amazon AppStream 2.0
+Part 226- Other Services
+Part 227- Amazon WorkSpaces
+Part 228- Amazon AppStream 2.0
+Part 229- Sumerian Overview
+Part 230-  IoT Core
+Part 231- Elastic Transcoder Overview
+Part 232- Device Farm Overview
+Part 233- AWS Backup Overview
+Part 234- CloudEndure Overview
