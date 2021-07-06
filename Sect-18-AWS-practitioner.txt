@@ -51,8 +51,8 @@ Service Control Policies (SCP)
 part 208
 
 AWS Control Tower
-• Easy way to set up and govern a secure and compliant multi-account
-AWS environment based on best practices
+• Easy way to set up and govern a secure and compliant (multi-account
+AWS environment) based on best practices
 • Benefits:
 	• Automate the set up of your environment in a few clicks
 	• Automate ongoing policy management using guardrails
