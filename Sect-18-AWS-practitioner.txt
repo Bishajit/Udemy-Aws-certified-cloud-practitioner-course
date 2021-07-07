@@ -65,7 +65,7 @@ part 210
 
 Pricing Models in AWS
 • AWS has 4 pricing models:
-• Pay as you go: pay for what you use, remain agile, responsive, meet scale
+• (Pay as you go): pay for what you use, remain agile, responsive, meet scale
 demands
 • Save when you reserve: minimize risks, predictably manage budgets, comply
 with long-terms requirements
