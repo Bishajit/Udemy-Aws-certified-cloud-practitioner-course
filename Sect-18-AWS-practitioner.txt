@@ -67,19 +67,24 @@ Pricing Models in AWS
 • AWS has 4 pricing models:
 • (Pay as you go): pay for what you use, remain agile, responsive, meet scale
 demands
-• Save when you reserve: minimize risks, predictably manage budgets, comply
+• (Save when you reserve): minimize risks, predictably manage budgets, comply
 with long-terms requirements
 	• Reservations are available for EC2 Reserved Instances, DynamoDB Reserved Capacity, ElastiCache Reserved Nodes, RDS Reserved Instance, Redshift Reserved Nodes
-• Pay less by using more: volume-based discounts
-• Pay less as AWS grows
+• (Pay less by using more): volume-based discounts
+• (Pay less as AWS grows)
 
 Free services & free tier in AWS
+
+Free
 • IAM
 • VPC
 • Consolidated Billing
+
+You do pay for the resorces created
 • Elastic Beanstalk
 • CloudFormation
 • Auto Scaling Groups
+
 • Free Tier: 
 	• EC2 t2.micro instance for a year
 	• S3, EBS, ELB, AWS Data transfer
