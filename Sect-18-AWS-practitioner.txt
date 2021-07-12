@@ -130,7 +130,7 @@ Compute Pricing
 	• Fargate Launch Type Model: Pay for vCPU and memory resources allocated to your applications in your containers
 
 Storage Pricing – S3
-• Storage class: S3 Standard, S3 Infrequent Access, S3 One-Zone IA, S3
+• (Storage class): S3 Standard, S3 Infrequent Access, S3 One-Zone IA, S3
 Intelligent Tiering, S3 Glacier and S3 Glacier Deep Archive
 • Number and size of objects: Price can be tiered (based on volume)
 • Number and type of requests
@@ -141,7 +141,7 @@ Intelligent Tiering, S3 Glacier and S3 Glacier Deep Archive
 
 Storage Pricing- EBS
 • Volume type (based on performance) 
-• Storage volume in GB per month provisionned 
+• Storage volume in GB per month (provisionned )
 • IOPS: 
 	• General Purpose SSD: Included 
 	• Provisioned IOPS SSD:  Provisionned amount in IOPS 
