@@ -227,7 +227,25 @@ metrics)
 • Lower your costs by up to 25% 
 • Recommendations can be exported to S3
 
+part 213
+
+Billing and Costing Tools 
+
+• Estimating costs in the cloud: 
+	• TCO Calculator 
+	• Simple Monthly Calculator / Pricing Calculator 
+• Tracking costs in the cloud:
+	• Billing Dashboard
+	• Cost Allocation Tags 
+	• Cost and Usage Reports 
+	• Cost Explorer 
+• Monitoring against costs plans: 
+	• Billing Alarms 
+	• Budgets
+
 part 219
+
+
 
 Account Best Practices – Summary
 
