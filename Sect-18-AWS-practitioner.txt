@@ -244,8 +244,17 @@ Billing and Costing Tools
 	• Budgets
 
 part 219
+AWS Total Cost of Ownership (TCO) Calculators
+• AWS helps you reduce Total Cost of Ownership (TCO) by (reducing the
+need to invest in large capital expenditures) and providing a (pay-as-yougo) model
+• The TCO calculators allow you to (estimate the cost savings) when using
+AWS and provide a detailed set of reports that can be used in
+executive presentations.
+• (Compare) the cost of your applications in an (on-premises) or traditional
+hosting environment to (AWS): Server, Storage, Network, IT Labor
+• https://awstcocalculator.com/
 
-
+214 
 
 Account Best Practices – Summary
 
@@ -261,6 +270,13 @@ Account Best Practices – Summary
 • CloudTrail to record API calls made within your account
 • If your Account is compromised: change the root password, delete and rotate all passwords / keys, contact
 the AWS support
+
+Simple Monthly Calculator / Pricing Calculator
+• Note: deprecated service (June 30th 2020)
+• Replaced by (AWS Pricing Calculator) https://calculator.aws/
+• Estimate the cost for your architecture solution.
+
+
 
 part 220
 Billing and Costing Tools – Summary 
