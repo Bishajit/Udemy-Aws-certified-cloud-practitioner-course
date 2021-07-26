@@ -243,7 +243,6 @@ Billing and Costing Tools
 	• Billing Alarms 
 	• Budgets
 
-part 219
 AWS Total Cost of Ownership (TCO) Calculators
 • AWS helps you reduce Total Cost of Ownership (TCO) by (reducing the
 need to invest in large capital expenditures) and providing a (pay-as-yougo) model
@@ -329,6 +328,58 @@ Billing and Costing Tools
 	•Cost Allocation Tags
 	•Cost and Usage Reports
 	•Cost Explorer
+216
+
+Billing Alarms in CloudWatch 
+
+• (Billing data metric is stored
+in CloudWatch us-east1)
+• Billing data are for overall
+worldwide AWS costs
+• It’s for actual cost, not for
+projected costs
+• Intended a simple alarm
+(not as powerful as AWS
+Budgets)
+
+AWS Budgets
+
+• Create budget and (send alarms when costs exceeds the budget)
+• 3 types of budgets: Usage, Cost, Reservation
+• For Reserved Instances (RI)
+	• Track utilization
+	• Supports EC2, ElastiCache, RDS, Redshift
+• Up to 5 SNS notifications per budget
+• Can filter by: Service, Linked Account, Tag, Purchase Option, Instance
+Type, Region, Availability Zone, API Operation, etc…
+• Same options as AWS Cost Explorer!
+• 2 budgets are free, then $0.02/day/budget
+
+217 Trusted advisor 
+
+Trusted Advisor
+• No need to install anything – high level AWS account assessment
+• Analyze your AWS accounts and provides recommendation:
+• Core Checks and recommendations – all customers
+• Can enable weekly email notification from the console
+• Full Trusted Advisor – Available for (Business & Enterprise support) plans
+	• Ability to set CloudWatch alarms when reaching limits
+	• Programmatic Access using AWS Support API
+
+Trusted Advisor Checks Examples 
+• Cost Optimization: 
+	• low utilization EC2 instances, idle load balancers, under-utilized EBS volumes… 
+	• Reserved instances & savings plans optimizations, 
+• Performance: 
+	• High utilization EC2 instances, CloudFront CDN optimizations 
+	• EC2 to EBS throughput optimizations, Alias records recommendations •
+ Security: 
+	• MFA enabled on Root Account, IAM key rotation, exposed Access Keys 
+	• S3 Bucket Permissions for public access, security groups with unrestricted ports
+• Fault Tolerance: 
+	• EBS snapshots age, Availability Zone Balance • ASG Multi-AZ, RDS Multi-AZ, ELB configuration… 
+	• Service Limits
+
 
 part 220
 Billing and Costing Tools – Summary 
