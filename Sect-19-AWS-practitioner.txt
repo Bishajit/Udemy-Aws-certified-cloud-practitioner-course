@@ -1,5 +1,22 @@
 Sect 19 advanced identity
 
+Part 221
+
+AWS STS (Security Token Service)
+• Enables you to create (temporary, limited- privileges credentials) to access your AWS
+resources
+• Short-term credentials: you configure
+expiration period
+• Use cases
+	• (Identity federation): manage user identities inexternal systems, and provide them with STS tokens to access AWS resources
+	• I(AM Roles for cross/same account access)
+	• (IAM Roles for Amazon EC2): provide temporary credentials for EC2 instances to access AWS resources
+
+Part 222
+Amazon Cognito (simplified)
+• Identity for your Web and Mobile applications users (potentially millions)
+• Instead of creating them an IAM user, you create a user in Cognito
+
 Part 225 summary
 
 • IAM
